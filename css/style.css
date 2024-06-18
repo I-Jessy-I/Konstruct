@@ -51,7 +51,6 @@ p {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
   padding-bottom: 2px;
 }
 
@@ -132,7 +131,7 @@ ul {
   background-color: #00a4e5;
   display: block;
   margin: 0 auto;
-  margin: 10px auto 0;
+  margin: 13px auto 0;
 }
 
 .story_inner {
@@ -144,7 +143,8 @@ ul {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 20px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
+  line-height: 29px;
   color: #48555b;
   margin-bottom: 30px;
 }
@@ -157,7 +157,7 @@ ul {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 13px;
-  line-height: 177%;
+  line-height: 22px;
   letter-spacing: 0.01em;
   color: #48555b;
 }
@@ -171,7 +171,7 @@ ul {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 24px;
-  line-height: 121%;
+  line-height: 32px;
   letter-spacing: 0.01em;
   color: #fff;
   text-transform: uppercase;
@@ -189,7 +189,7 @@ ul {
 
 .story_item:nth-child(1) {
   background-image: url(../img/Bitmap.png);
-  margin-left: 77px;
+  margin-left: 91px;
 }
 
 .story_item:nth-child(2) {
@@ -206,7 +206,7 @@ ul {
 .services_flex {
   display: flex;
   justify-content: space-between;
-  margin: 115px 250px;
+  margin: 121px 250px 66px 250px;
 }
 
 .services_title {
@@ -225,15 +225,15 @@ ul {
   height: 2px;
   background-color: #00a4e5;
   display: block;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .services_p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 11px;
-  line-height: 173%;
-  letter-spacing: 0.02em;
+  line-height: 333px;
+  letter-spacing: 0.05em;
   color: #48555b;
   margin-right: 32px;
 }
@@ -266,7 +266,7 @@ ul {
 
 .services_cards {
   border: 1px solid #e6e6e6;
-  padding: 39px 15px;
+  padding: 39px 14px 37px 20px;
   /* align-items: center; */
 }
 
@@ -305,9 +305,9 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 120%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.05em;
   color: #48555b;
-  padding-top: 120px;
+  padding-top: 111px;
   padding-bottom: 35px;
   margin: 0 auto;
 }
@@ -327,7 +327,7 @@ ul {
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-align: center;
   color: #fff;
 }
@@ -384,7 +384,7 @@ ul {
 }
 
 .contacts_links {
-  margin-right: 58px;
+  margin-right: 50px;
 }
 
 .contacts_links-flex {
@@ -401,7 +401,7 @@ ul {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 11px;
-  line-height: 227%;
+  line-height: 23px;
   letter-spacing: 0.08em;
   color: #ffffff;
   text-decoration: none;
@@ -419,10 +419,10 @@ ul {
   line-height: 145%;
   letter-spacing: 0.08em;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
-.contacts_tel {
+.contacts_tel a {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 11px;
@@ -439,7 +439,7 @@ ul {
   cursor: pointer;
 }
 
-.contacts_mail {
+.contacts_mail a {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 11px;
@@ -449,9 +449,14 @@ ul {
   text-decoration: none;
 }
 
+.contacts_icon {
+  padding-left: 29px;
+  padding-top: 28px;
+}
+
 .contacts_icon ul {
   display: flex;
-  gap: 25px;
+  gap: 23px;
 }
 
 svg {
@@ -465,11 +470,12 @@ svg:hover {
 /* footer */
 .footer_p {
   text-align: center;
-  padding: 23px 0;
+  padding-top: 19px;
+  padding-bottom: 23px;
   background: #171819;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 11px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: #fff;
 }
